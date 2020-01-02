@@ -14,6 +14,7 @@ Contains all relavent files besides cortex credential
 * **How_it_work.png** contains a graphical explanation of how the program works
 * **pyautogui_test.py** is a testing script for author to understand how to use pyautogui library
 * **sample_code.png** contains screen shot of the program and cortex training profile
+* **Demo.mp4** is a demonstration of the program running in real time: Action push corresponds to move left; Action Neutral corresponds to stay in place.
 
 ### Note from Author
 This project idea is inspired by the work from https://github.com/kevinjycui/EEG-Cursor-Control
