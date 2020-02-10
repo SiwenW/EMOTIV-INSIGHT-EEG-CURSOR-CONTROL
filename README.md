@@ -16,6 +16,13 @@ Contains all relavent files besides cortex credential
 * **sample_code.png** contains screen shot of the program and cortex training profile
 * **Demo.mp4** is a demonstration of the program running in real time: Action push corresponds to move left; Action Neutral corresponds to stay in place.
 
+### Solution of some of the potential errors may occur:
+1. Error: Modulenotfounderror: "No module named websockets" 
+   Solution: Install the websockets package in python. Google it if not familar with python install package process.
+2. Error: Invalid Profile Name
+   Solution: This is due to that I changed the predefined function "load_profile" in cortex.py. To fix the error, open cortex.py and find where the function is declared, change '1stTry' in params to your own profile name. Your profile name can be found in the EmotivBCI app.
+3. More to be updated
+	
 ### Note from Author
 This project idea is inspired by the work from https://github.com/kevinjycui/EEG-Cursor-Control
 I got lots of help by looking at Kevin's code and implementation, and this helped me come up with my own style later on.
